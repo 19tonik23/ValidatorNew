@@ -41,6 +41,10 @@
             this.tabIconBusMonitor = new System.Windows.Forms.TableLayoutPanel();
             this.busMonitor = new System.Windows.Forms.Panel();
             this.tbCards = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.tabPanMaps = new System.Windows.Forms.TableLayoutPanel();
             this.panMaps = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
@@ -54,6 +58,7 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.tabMonitor.SuspendLayout();
             this.tabIconBusMonitor.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.tabPanMaps.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -71,22 +76,23 @@
             this.tabPanGeneral.RowCount = 2;
             this.tabPanGeneral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tabPanGeneral.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tabPanGeneral.Size = new System.Drawing.Size(1382, 703);
+            this.tabPanGeneral.Size = new System.Drawing.Size(1375, 703);
             this.tabPanGeneral.TabIndex = 0;
             // 
             // tabPanGenTop
             // 
             this.tabPanGenTop.ColumnCount = 3;
-            this.tabPanGenTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tabPanGenTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tabPanGenTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tabPanGenTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tabPanGenTop.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tabPanGenTop.Controls.Add(this.tabPanTer_Card, 1, 0);
+            this.tabPanGenTop.Controls.Add(this.tableLayoutPanel3, 0, 0);
             this.tabPanGenTop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabPanGenTop.Location = new System.Drawing.Point(3, 3);
             this.tabPanGenTop.Name = "tabPanGenTop";
             this.tabPanGenTop.RowCount = 1;
             this.tabPanGenTop.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tabPanGenTop.Size = new System.Drawing.Size(1376, 556);
+            this.tabPanGenTop.Size = new System.Drawing.Size(1369, 556);
             this.tabPanGenTop.TabIndex = 1;
             // 
             // tabPanTer_Card
@@ -97,11 +103,11 @@
             this.tabPanTer_Card.Controls.Add(this.panTerm, 0, 0);
             this.tabPanTer_Card.Controls.Add(this.tbCards, 1, 0);
             this.tabPanTer_Card.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabPanTer_Card.Location = new System.Drawing.Point(278, 3);
+            this.tabPanTer_Card.Location = new System.Drawing.Point(413, 3);
             this.tabPanTer_Card.Name = "tabPanTer_Card";
             this.tabPanTer_Card.RowCount = 1;
             this.tabPanTer_Card.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tabPanTer_Card.Size = new System.Drawing.Size(819, 550);
+            this.tabPanTer_Card.Size = new System.Drawing.Size(815, 550);
             this.tabPanTer_Card.TabIndex = 0;
             // 
             // panTerm
@@ -112,7 +118,7 @@
             this.panTerm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panTerm.Location = new System.Drawing.Point(3, 3);
             this.panTerm.Name = "panTerm";
-            this.panTerm.Size = new System.Drawing.Size(485, 544);
+            this.panTerm.Size = new System.Drawing.Size(483, 544);
             this.panTerm.TabIndex = 0;
             // 
             // tabTerm
@@ -130,7 +136,7 @@
             this.tabTerm.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45F));
             this.tabTerm.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tabTerm.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tabTerm.Size = new System.Drawing.Size(485, 544);
+            this.tabTerm.Size = new System.Drawing.Size(483, 544);
             this.tabTerm.TabIndex = 0;
             // 
             // tablTermCheck
@@ -145,7 +151,7 @@
             this.tablTermCheck.Name = "tablTermCheck";
             this.tablTermCheck.RowCount = 1;
             this.tablTermCheck.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tablTermCheck.Size = new System.Drawing.Size(479, 157);
+            this.tablTermCheck.Size = new System.Drawing.Size(477, 157);
             this.tablTermCheck.TabIndex = 0;
             // 
             // panCheck
@@ -153,7 +159,7 @@
             this.panCheck.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panCheck.Location = new System.Drawing.Point(98, 3);
             this.panCheck.Name = "panCheck";
-            this.panCheck.Size = new System.Drawing.Size(281, 151);
+            this.panCheck.Size = new System.Drawing.Size(280, 151);
             this.panCheck.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -168,7 +174,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(479, 238);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(477, 238);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // tabMonitor
@@ -186,7 +192,7 @@
             this.tabMonitor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tabMonitor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45F));
             this.tabMonitor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tabMonitor.Size = new System.Drawing.Size(425, 232);
+            this.tabMonitor.Size = new System.Drawing.Size(423, 232);
             this.tabMonitor.TabIndex = 0;
             // 
             // labMonitor
@@ -197,7 +203,7 @@
             this.labMonitor.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.labMonitor.Location = new System.Drawing.Point(3, 34);
             this.labMonitor.Name = "labMonitor";
-            this.labMonitor.Size = new System.Drawing.Size(419, 34);
+            this.labMonitor.Size = new System.Drawing.Size(417, 34);
             this.labMonitor.TabIndex = 0;
             this.labMonitor.Text = "Приложите карточку";
             this.labMonitor.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -214,14 +220,14 @@
             this.tabIconBusMonitor.Name = "tabIconBusMonitor";
             this.tabIconBusMonitor.RowCount = 1;
             this.tabIconBusMonitor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tabIconBusMonitor.Size = new System.Drawing.Size(419, 98);
+            this.tabIconBusMonitor.Size = new System.Drawing.Size(417, 98);
             this.tabIconBusMonitor.TabIndex = 1;
             // 
             // busMonitor
             // 
             this.busMonitor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.busMonitor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.busMonitor.Location = new System.Drawing.Point(149, 3);
+            this.busMonitor.Location = new System.Drawing.Point(148, 3);
             this.busMonitor.Name = "busMonitor";
             this.busMonitor.Size = new System.Drawing.Size(119, 92);
             this.busMonitor.TabIndex = 0;
@@ -231,14 +237,63 @@
             this.tbCards.ColumnCount = 1;
             this.tbCards.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tbCards.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbCards.Location = new System.Drawing.Point(494, 3);
+            this.tbCards.Location = new System.Drawing.Point(492, 3);
             this.tbCards.Name = "tbCards";
             this.tbCards.RowCount = 3;
             this.tbCards.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
             this.tbCards.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
             this.tbCards.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tbCards.Size = new System.Drawing.Size(322, 544);
+            this.tbCards.Size = new System.Drawing.Size(320, 544);
             this.tbCards.TabIndex = 1;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.label3, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.label2, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 3;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(404, 205);
+            this.tableLayoutPanel3.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(3, 143);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(311, 58);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "3)Кликнуть на активную остановку";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(3, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(328, 58);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "2)На активной остановке кликнуть на карту";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(234, 29);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "1)Кликнуть  Старт";
             // 
             // tabPanMaps
             // 
@@ -255,7 +310,7 @@
             this.tabPanMaps.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
             this.tabPanMaps.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
             this.tabPanMaps.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33F));
-            this.tabPanMaps.Size = new System.Drawing.Size(1376, 135);
+            this.tabPanMaps.Size = new System.Drawing.Size(1369, 135);
             this.tabPanMaps.TabIndex = 2;
             // 
             // panMaps
@@ -265,7 +320,7 @@
             this.panMaps.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panMaps.Location = new System.Drawing.Point(3, 47);
             this.panMaps.Name = "panMaps";
-            this.panMaps.Size = new System.Drawing.Size(1370, 39);
+            this.panMaps.Size = new System.Drawing.Size(1363, 39);
             this.panMaps.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -281,7 +336,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1370, 38);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1363, 38);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // butStart
@@ -303,7 +358,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1382, 703);
+            this.ClientSize = new System.Drawing.Size(1375, 703);
             this.Controls.Add(this.tabPanGeneral);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -318,6 +373,8 @@
             this.tabMonitor.ResumeLayout(false);
             this.tabMonitor.PerformLayout();
             this.tabIconBusMonitor.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             this.tabPanMaps.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -343,6 +400,10 @@
         private System.Windows.Forms.TableLayoutPanel tabIconBusMonitor;
         private System.Windows.Forms.Panel busMonitor;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }
 
